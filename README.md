@@ -1,2 +1,2 @@
 # EasyCFD
-Automated Open Source Workflow for Computational Fluid Dynamics
+EasyCFD is an automated open source workflow for computational fluid dynamics simulations. 
