@@ -1,5 +1,5 @@
 # EasyCFD
-EasyCFD is an automated open source workflow for computational fluid dynamics simulations. 
+EasyCFD is an automated open source workflow for computational fluid dynamics (CFD) simulations. 
 
 This page containts the following:
 * Python Code
@@ -17,6 +17,12 @@ This page containts the following:
       * Converts the enGrid SU2 file to STL files for each named boundary
    * groups.py
       * Function called by su2ToSTL.py that extracts the boundary names
+* Sample STL Files
+   * Provided geometry files to be processed through enGrid
+* Necessary Software
+   * enGrid is the software used for preparing STL geometry files for OpenFOAM use
+   * Python 3 is the programming language of EasyCFD
+   * blueCFD-Core is OpenFOAM for Microsoft Windows and runs the CFD simulations
       
       
       
