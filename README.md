@@ -22,7 +22,7 @@ This page containts the following:
 * Necessary Software
    * enGrid is the software used for preparing STL geometry files for OpenFOAM use
    * Python 3 is the programming language of EasyCFD
-   * blueCFD-Core is OpenFOAM for Microsoft Windows and runs the CFD simulations
+   * blueCFD-Core is OpenFOAM for Microsoft Windows and runs the CFD simulations. It can be downloaded from http://bluecfd.github.io/Core/Downloads/
       
       
       
