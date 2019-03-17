@@ -1,5 +1,5 @@
 # EasyCFD
-EasyCFD is an automated open source workflow for computational fluid dynamics (CFD) simulations. The goal of this project is to shatter the status-quo in education and industry that CFD software is difficult and expensive to use. EasyCFD makes OpenFOAM, an open source CFD software package, easy and accessible by maximizing work done by the computer and minimizing work done by the human user wihtout sacrificing accuracy.
+EasyCFD is an automated open source workflow for computational fluid dynamics (CFD) simulations. The goal of this project is to shatter the status-quo in education and industry that CFD software is difficult and expensive to use. EasyCFD makes OpenFOAM, an open source CFD software package, easy and accessible by maximizing work done by the computer and minimizing work done by the human user without sacrificing accuracy.
 
 This page containts the following:
 * Python Code
