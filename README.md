@@ -17,8 +17,8 @@ This page containts the following:
       * Converts the enGrid SU2 file to STL files for each named boundary
    * groups.py
       * Function called by su2ToSTL.py that extracts the boundary names
-* Sample STL Files
-   * Provided geometry files to be processed through enGrid
+* Sample Geometry
+   * Provided STL geometry files to be processed through enGrid
 * Necessary Software
    * enGrid is the software used for preparing STL geometry files for OpenFOAM use. An installer is included in this folder, but it can also be downloaded from https://sourceforge.net/projects/engrid/
    * Python 3 is the programming language of EasyCFD. The Python 3.7.2 installer is included in this folder, but other Python 3 versions can be downloaded from https://www.python.org/downloads/ 
