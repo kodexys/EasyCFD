@@ -29,6 +29,7 @@ def makeScripts(pathName, fileName, flow, cores, theta, bound, lst_of_group_name
     out.write("mpirun -np " + str(cores) + " snappyHexMesh -overwrite -parallel > log.Snappy\n")
     out.write("reconstructParMesh -constant\n")
     out.write("rm -r *processor*\n")
+    out.write("transformPoints.exe  -scale '(0.001 0.001 0.001)' >log.transformPoints\n")
     if (theta != str(0)) and (bound == 0):
         out.write("transformPoints -yawPitchRoll '(" + str(theta) + " 0 0)'\n")
     out.write("decomposePar.exe > log.Decompose\n")    
