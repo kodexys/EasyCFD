@@ -420,7 +420,7 @@ def make_system(pathName, lst_of_group_names, lst_of_group_names_ext, flow, core
         out.write("     momentumPredictor   no;\n")
         out.write("     nCorrectors         3;\n")
         out.write("     nNonOrthogonalCorrectors 1;\n")
-        out.write("     piRefCell                0;\n")
+        out.write("     pRefCell                 0;\n")
         out.write("     pRefValue                0;\n") 
         out.write("}") 
     out.close
