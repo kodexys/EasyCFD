@@ -48,7 +48,7 @@ def make_system(pathName, lst_of_group_names, lst_of_group_names_ext, flow, core
     out.write("\n")
     out.write("castellatedMeshControls\n")
     out.write("{\n")
-    out.write("     locationInMesh (x y z);\n")
+    out.write("     locationInMesh (0 0 0); // default, may need to be changed\n")
     out.write("     refinementSurfaces\n")
     out.write("     {\n")
     if bound == 0:
