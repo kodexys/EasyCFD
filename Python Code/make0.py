@@ -130,7 +130,7 @@ def makeZero(pathName, lst_of_group_names, dim, flow, inletU, bound, turbulence)
                 out.write("     " + i + "\n     {\n     type constantAlphaContactAngle;\n     theta0          45.1235;\n     limit           gradient;\n     value uniform " + str(init_flow) + ";\n     }\n\n")
             #elif i == "outlet":
             elif "outlet" in i:
-                out.write("     " + i + "\n     {\n     type inletOutlet;\n     inletValue      uniform " + str(inlet_flow) + ";\n     value        uniform " + str(init_flow) + ";\n     }\n\n")
+                out.write("     " + i + "\n     {\n     type inletOutlet;\n     inletValue      uniform " + str(init_flow) + ";\n     value        uniform " + str(init_flow) + ";\n     }\n\n")
             #elif i == "inlet":
             elif "inlet" in i:
                 out.write("     " + i + "\n     {\n     type inletOutlet;\n     inletValue      uniform " + str(inlet_flow) + ";\n     value        uniform " + str(inlet_flow) + ";\n     }\n\n")
